@@ -1,3 +1,12 @@
+/* CUSTOM-PROPS */
+:root {
+  --blue: #5267df;
+  --red: #fa5959;
+  --text-color: #242a45;
+  --text-color-75: rgba(36, 42, 69, 0.75);
+  --text-color-50: rgba(36, 42, 69, 0.5);
+}
+
 /* GLOBAL */
 html {
   box-sizing: border-box;
@@ -18,11 +27,12 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: "Arial", sans-serif;
+  font-family: "Rubik", "Arial", sans-serif;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 36px;
+  letter-spacing: 0.15px;
   background-color: #fff;
-  color: #000;
+  color: var(--text-color-50);
 }
 
 img {
@@ -34,9 +44,9 @@ img {
 /* CONTAINER */
 .container {
   width: 100%;
-  max-width: 1200px;
-  padding-left: 50px;
-  padding-right: 50px;
+  max-width: 1150px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-right: auto;
   margin-left: auto;
 }

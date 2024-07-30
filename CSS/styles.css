@@ -211,6 +211,28 @@ img {
   line-height: 28px;
 }
 
+/* TABS */
+.tabs {
+}
+
+.tabs__list {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.tabs__item {
+  width: 243px;
+}
+
+.tabs__link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
 /* SITE-HEADER */
 .site-header {
   padding-top: 48px;
@@ -284,4 +306,9 @@ img {
   height: 385px;
   object-fit: contain;
   filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.5));
+}
+
+/* FEATURES */
+.features__section-info {
+  margin-bottom: 40px;
 }

@@ -87,7 +87,7 @@
         <div class="container">
           <div class="tabs__panel tabs__panel--active" id="simple-bookmarking">
             <section class="feature-tab-panel">
-              <img class="feature-tab-panel__img" src="IMG/feature-simple-bookmarking-illustration.svg" alt="Bookmark maneger illustration" width="536" height="346">
+              <img class="feature-tab-panel__img feature-tab-panel__img--bookmark-manager" src="IMG/feature-simple-bookmarking-illustration.svg" alt="Bookmark maneger illustration" width="536" height="346">
               <div class="feature-tab-panel__info">
                 <h3 class="feature-tab-panel__title">Bookmark in one click</h3>
                 <p class="feature-tab-panel__text">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
@@ -110,7 +110,7 @@
           </div>
         </div>
 
-        <div class="tabs__panels">
+        <div class="tabpanels__item">
           <div class="tabs__panel" id="feature-share-your-bookmarks">
             <section class="feature-tab-panel">
               <img class="feature-tab-panel__img" src="IMG/feature-easy-sharing-illustrationn.svg" alt="Easy sahring maneger illustration" width="440" height="380">
@@ -127,11 +127,36 @@
 
 
     <!-- DOWNLOAD-EXTENSIONS -->
-    <section class="section">
+    <section class="extensions section">
       <div class="container">
         <div class="section__info">
           <h2 class="section__title">Download the extension</h2>
           <p class="section__description">We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.</p>
+        </div>
+
+        <div class="extensions__inner">
+          <ul class="extensions__list">
+            <li class="extensions__item extension">
+              <img class="extension__img" src="IMG/chrome.svg" alt="GoogleChrome logo" width="105" height="100">
+              <h3 class="extension__title">Add to Chrome</h3>
+              <p class="extension__browser-version">Minimum version 62</p>
+                <a class="button button--blue button--block" href="#" target="_blank">Add & Install Extension</a>
+            </li>
+
+            <li class="extensions__item extension">
+              <img class="extension__img" src="IMG/firefox.svg" alt="Firefox logo" width="105" height="100">
+              <h3 class="extension__title">Add to Firefox</h3>
+              <p class="extension__browser-version">Minimum version 55</p>
+                <a class="button button--blue button--block" href="#" target="_blank">Add & Install Extension</a>
+            </li>
+
+            <li class="extensions__item extension">
+              <img class="extension__img" src="IMG/Opera.svg" alt="Opera logo" width="105" height="100">
+              <h3 class="extension__title">Add to Opera</h3>
+              <p class="extension__browser-version">Minimum version 46</p>
+                <a class="button button--blue button--block" href="#" target="_blank">Add & Install Extension</a>
+            </li>
+          </ul>
         </div>
       </div>
     </section>
@@ -139,11 +164,67 @@
 
 
     <!-- FAQ -->
-    <section class="section">
+    <section class="faq section">
       <div class="container">
-        <div class="section__info">
+        <div class="faq__section-info section__info">
           <h2 class="section__title">Frequently Asked Questions</h2>
           <p class="section__description">Here are some of our FAQs. If you have any other questions you’d like answered please feel free to email us.</p>
+        </div>
+
+        <div class="faq__inner">
+          <div class="faq-accordion">
+            <div class="accordion">
+              <section class="accordion__item">
+                <header class="accordion__item-header">
+                  <h3 class="accordion__item-title">What is Bookmark?</h3>
+                  <button class="accordion__item-toggler" type="button" aria-label="Accordion item toggler">
+                    <svg class="accordion__item-toggler-icon" width="20" height="13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m2 2 8 8 8-8" stroke="currentColor" stroke-width="3"/></svg></button>
+                </header>
+                <div class="accordion__item-content">
+                  <p class="accordion__item-text">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+                    ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+                </div>
+              </section>
+
+              <section class="accordion__item accordion__item--open">
+                <header class="accordion__item-header ">
+                  <h3 class="accordion__item-title">How can I request a new browser?</h3>
+                  <button class="accordion__item-toggler" type="button" aria-label="Accordion item toggler">
+                    <svg class="accordion__item-toggler-icon" width="20" height="13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m2 2 8 8 8-8" stroke="currentColor" stroke-width="3"/></svg></button>
+                </header>
+                <div class="accordion__item-content">
+                  <p class="accordion__item-text">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+                    ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+                </div>
+              </section>
+
+              <section class="accordion__item">
+                <header class="accordion__item-header">
+                  <h3 class="accordion__item-title">Is there a mobile app?</h3>
+                  <button class="accordion__item-toggler" type="button" aria-label="Accordion item toggler">
+                    <svg class="accordion__item-toggler-icon" width="20" height="13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m2 2 8 8 8-8" stroke="currentColor" stroke-width="3"/></svg></button>
+                </header>
+                <div class="accordion__item-content">
+                  <p class="accordion__item-text">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+                    ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+                </div>
+              </section>
+
+              <section class="accordion__item">
+                <header class="accordion__item-header">
+                  <h3 class="accordion__item-title">What about other Chromium browsers?</h3>
+                  <button class="accordion__item-toggler" type="button" aria-label="Accordion item toggler">
+                    <svg class="accordion__item-toggler-icon" width="20" height="13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m2 2 8 8 8-8" stroke="currentColor" stroke-width="3"/></svg></button>
+                </header>
+                <div class="accordion__item-content">
+                  <p class="accordion__item-text">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+                    ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+                </div>
+              </section>
+            </div>
+          </div>
+
+          <a class="button button--blue" href="#">More Info</a>
         </div>
       </div>
     </section>
